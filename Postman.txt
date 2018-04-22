@@ -1,0 +1,17 @@
+URL: localhost:8080/ServiceCalls/tbl_table
+tbl_table: 	/customer
+			/contact
+			/chargecode
+			/action
+			/outcomecode
+			/problem
+			/srcalls
+			/sractions
+			/technician
+			/statuscode
+
+	GET:/get/all
+		/get/{id} or /get/{code}
+	POST:/add
+	DELETE:/delete/{id} or /delete/{code}
+	PUT:/update/{id} or /update/{code}
